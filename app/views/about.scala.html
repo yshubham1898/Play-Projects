@@ -1,0 +1,24 @@
+
+@*this takes the string argument passed after about.render(" ") in HomeController about() method*@
+@(message : String)
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/style.css")">
+    <title>About Page</title>
+  </head>
+
+  <body>
+    <h1>About Page!!!!</h1>
+    <h2>Shubham</h2>
+    <h3>@message</h3>
+
+
+  </body>
+</html>
+
